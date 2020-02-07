@@ -71,7 +71,7 @@ class Task extends Component {
                     </Col>
                     
                 </Row>
-
+            
                 <div className="card-body">
                     <form onSubmit={this.onSubmit}>
                         <div className="form-group">
@@ -82,6 +82,7 @@ class Task extends Component {
                         <button className="btn btn-info btn-block">Add things to do</button>
                     </form>
                 </div>
+           
             </div>
             {this.renderTask()}
             </React.Fragment>

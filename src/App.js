@@ -11,8 +11,9 @@ import './App.css'
  class App extends Component {
    render() {
     return (
-      <div className="appl" style={{padding: '30px 30px'}}>
-        <h1 style={{fontSize:'60px'}}> Todo List</h1>
+      
+      <div className="appl" style={{padding: '10px 10px', margin:'0 auto' }}>
+        <h1 style={{fontSize:'60px'}}> My Todo List App</h1>
         <Avatar />
         <br />
         <Date />
@@ -20,6 +21,7 @@ import './App.css'
         <Task />
         <br />
       </div>
+    
     );
   }
   
